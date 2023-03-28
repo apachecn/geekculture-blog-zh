@@ -1,0 +1,68 @@
+# 360 IT Check #41 — React 18、肯塔基州矿业复兴等等！
+
+> 原文：<https://medium.com/geekculture/360-it-check-41-react-18-kentuckys-mining-renaissance-and-more-3433620267b4?source=collection_archive---------19----------------------->
+
+![](img/a3b4d4514672c51fb366358d209f7b70.png)
+
+# 反应 18
+
+流行的 JavaScript 框架的下一个重大升级 React 18 已经推出。我们已经写了关于[一些](https://www.itmagination.com/blog/360deg-it-check-11-react-js-concurrent-mode-chrome-93-v8-9-3-edge-computing-with-5g-windows-11) [新](https://www.itmagination.com/blog/360deg-it-check-25-log4j-react-line-tailwind-css)特性即将到来的文章，我们目前正在准备一份关于所有重要变化 [React 开发者](https://www.itmagination.com/open-jobs/8050000012874788)必须知道的摘要。敬请关注，本周再来查看。
+
+**底线**
+
+React 18 有点震撼。服务器组件等特性是一项重大创新；尽管还不稳定，但它将有可能在前端 web 开发领域产生巨大的变革。看看 Vue 或 Angular 会带来什么来回答这个新功能，会很有趣；反应与角度，反应与 Vue 战斗将如何改变。
+
+不利的一面是，在一个关于优化 React 的视频中，我们可以看到一个良好优化的组件需要什么。没过多久，尤雨溪就做出了回应，用 Vue 的话说，这或多或少是“即插即用”。
+
+[这里](https://sfc.vuejs.org/#eyJBcHAudnVlIjoiPHNjcmlwdCBzZXR1cD5cbmltcG9ydCB7IHJlZiB9IGZyb20gJ3Z1ZSdcbmltcG9ydCBUb2RvTGlzdCBmcm9tICcuL1RvZG9MaXN0LnZ1ZSdcbiAgXG5jb25zdCB2aXNpYmlsaXR5ID0gcmVmKCdhbGwnKVxuY29uc3QgdGhlbWVDb2xvciA9IHJlZignIzA0NTk3NScpXG48L3NjcmlwdD5cblxuPHRlbXBsYXRlPlxuICA8bGFiZWw+PGlucHV0IHR5cGU9XCJyYWRpb1wiICB2LW1vZGVsPVwidmlzaWJpbGl0eVwiIHZhbHVlPVwiYWxsXCI+IEFsbDwvbGFiZWw+XG4gIDxsYWJlbD48aW5wdXQgdHlwZT1cInJhZGlvXCIgIHYtbW9kZWw9XCJ2aXNpYmlsaXR5XCIgdmFsdWU9XCJhY3RpdmVcIj4gQWN0aXZlPC9sYWJlbD5cbiAgPGxhYmVsPjxpbnB1dCB0eXBlPVwicmFkaW9cIiAgdi1tb2RlbD1cInZpc2liaWxpdHlcIiB2YWx1ZT1cImNvbXBsZXRlZFwiPiBDb21wbGV0ZWQ8L2xhYmVsPlxuICA8bGFiZWw+PGlucHV0IHR5cGU9XCJjb2xvclwiIHYtbW9kZWw9XCJ0aGVtZUNvbG9yXCI+IHRoZW1lIGNvbG9yPC9sYWJlbD5cbiAgPFRvZG9MaXN0IDp2aXNpYmlsaXR5PVwidmlzaWJpbGl0eVwiIDp0aGVtZUNvbG9yPVwidGhlbWVDb2xvclwiIC8+XG48L3RlbXBsYXRlPlxuXG48c3R5bGUgc2NvcGVkPlxuICBsYWJlbCB7IG1hcmdpbi1yaWdodDogMWVtOyB9XG48L3N0eWxlPiIsImltcG9ydC1tYXAuanNvbiI6IntcbiAgXCJpbXBvcnRzXCI6IHtcbiAgICBcInZ1ZVwiOiBcImh0dHBzOi8vc2ZjLnZ1ZWpzLm9yZy92dWUucnVudGltZS5lc20tYnJvd3Nlci5qc1wiXG4gIH1cbn0iLCJUb2RvTGlzdC52dWUiOiI8c2NyaXB0IHNldHVwPlxuaW1wb3J0IHsgcmVhY3RpdmUsIHJlZiwgY29tcHV0ZWQgfSBmcm9tICd2dWUnXG5pbXBvcnQgVG9kbyBmcm9tICcuL1RvZG8udnVlJ1xuaW1wb3J0IGluaXRpYWxUb2RvcyBmcm9tICcuL2luaXRpYWxUb2Rvcy5qcydcblxuY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wcyhbJ3Zpc2liaWxpdHknLCAndGhlbWVDb2xvciddKVxuXG5jb25zdCB0b2RvcyA9IHJlYWN0aXZlKGluaXRpYWxUb2RvcylcblxubGV0IGZpbHRlckNhbGxzID0gMFxuY29uc3QgZmlsdGVyZWRUb2RvcyA9IGNvbXB1dGVkKCgpID0+IHtcbiAgZmlsdGVyQ2FsbHMrK1xuXHRyZXR1cm4gcHJvcHMudmlzaWJpbGl0eSA9PT0gJ2FsbCcgPyB0b2RvcyA6IHRvZG9zLmZpbHRlcih0b2RvID0+IHtcbiAgXHRyZXR1cm4gcHJvcHMudmlzaWJpbGl0eSA9PT0gJ2FjdGl2ZScgPyAhdG9kby5kb25lIDogdG9kby5kb25lXG5cdH0pXG59KVxuXG5jb25zdCB0b2dnbGUgPSB0b2RvID0+IHRvZG8uZG9uZSA9ICF0b2RvLmRvbmVcblxuY29uc3QgYWRkSW5wdXQgPSByZWYoKVxuY29uc3QgYWRkID0gKCkgPT4ge1xuICB0b2Rvcy5wdXNoKHsgdGV4dDogYWRkSW5wdXQudmFsdWUsIGRvbmU6IGZhbHNlIH0pXG4gIGFkZElucHV0LnZhbHVlID0gJydcbn1cbjwvc2NyaXB0PlxuXG48dGVtcGxhdGU+XG4gIDxwPlxuICAgIGZpbHRlciB3YXMgY2FsbGVkXG4gICAgPHNwYW4gY2xhc3M9XCJmaWx0ZXItY2FsbFwiPnt7IGZpbHRlckNhbGxzIH19PC9zcGFuPiB0aW1lc1xuICA8L3A+XG4gIDx1bD5cbiAgICA8VG9kbyB2LWZvcj1cInRvZG8gb2YgZmlsdGVyZWRUb2Rvc1wiXG4gICAgICAgICAgOmtleT1cInRvZG8udGV4dFwiXG4gICAgICAgICAgOnRvZG89XCJ0b2RvXCJcbiAgICAgICAgICBAY2hhbmdlPVwidG9nZ2xlXCIgLz5cbiAgPC91bD5cbiAgPGZvcm0gQHN1Ym1pdC5wcmV2ZW50PVwiYWRkXCI+XG4gICAgPGlucHV0IHBsYWNlaG9sZGVyPVwiYWRkIHRvZG9cIiByZWY9XCJhZGRJbnB1dFwiPlxuICAgIDxidXR0b24gdHlwZT1cInN1Ym1pdFwiPkFkZDwvYnV0dG9uPlxuICA8L2Zvcm0+XG48L3RlbXBsYXRlPlxuXG48c3R5bGUgc2NvcGVkPlxuICAuZmlsdGVyLWNhbGwge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmNjY7XG4gICAgY29sb3I6ICNmZmY7XG4gICAgcGFkZGluZzogMC4yZW0gMC41ZW07XG4gICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICB9XG4gIGJ1dHRvbiB7XG4gICAgY29sb3I6ICNmZmY7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdi1iaW5kKCdwcm9wcy50aGVtZUNvbG9yJylcbiAgfVxuPC9zdHlsZT4iLCJUb2RvLnZ1ZSI6IjxzY3JpcHQgc2V0dXA+XG5pbXBvcnQgeyByZWYsIG9uQmVmb3JlVXBkYXRlIH0gZnJvbSAndnVlJ1xuXG5kZWZpbmVQcm9wcyhbJ3RvZG8nXSlcbmRlZmluZUVtaXRzKFsnY2hhbmdlJ10pXG5cbmxldCB1cGRhdGVzID0gMFxub25CZWZvcmVVcGRhdGUoKCkgPT4gdXBkYXRlcysrKVxuPC9zY3JpcHQ+XG5cbjx0ZW1wbGF0ZT5cbiAgPGxpPlxuICBcdDxsYWJlbD5cbiAgICAgIDxpbnB1dCB0eXBlPVwiY2hlY2tib3hcIlxuICAgICAgICAgICAgIDpjaGVja2VkPVwidG9kby5kb25lXCJcbiAgICAgICAgICAgICBAY2hhbmdlPVwiJGVtaXQoJ2NoYW5nZScsIHRvZG8pXCI+XG4gICAgICB7eyB0b2RvLnRleHQgfX1cbiAgICA8L2xhYmVsPlxuXHQgIDxzcGFuPlVwZGF0ZWQge3sgdXBkYXRlcyB9fSB0aW1lczwvc3Bhbj5cbiAgPC9saT5cbjwvdGVtcGxhdGU+XG5cbjxzdHlsZSBzY29wZWQ+XG4gIHNwYW4ge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHllbGxvdztcbiAgICBib3JkZXItcmFkaXVzOiA4cHg7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIGZvbnQtc2l6ZTogMC44ZW07XG4gICAgcGFkZGluZzogMC4yZW0gMC41ZW07XG4gICAgbWFyZ2luLWxlZnQ6IDFlbTtcbiAgfVxuPC9zdHlsZT4iLCJpbml0aWFsVG9kb3MuanMiOiJleHBvcnQgZGVmYXVsdCBbXG4gIHtcbiAgICB0ZXh0OiAnb25lJyxcbiAgICBkb25lOiBmYWxzZVxuICAgfSxcbiAge1xuICAgIHRleHQ6ICd0d28nLFxuICAgIGRvbmU6IGZhbHNlXG4gICB9LFxuICB7XG4gICAgdGV4dDogJ3RocmVlJyxcbiAgICBkb25lOiBmYWxzZVxuICAgfVxuXSJ9=)，你可以看到你的代码，而[这里](https://www.youtube.com/watch?v=lGEMwh32soc)是供参考的视频。要点是 React 只给你必要的东西，而不是更多。很容易陷入绝望的深渊。其他库，如 Vue 或 Solid，使构建更高效的应用程序变得容易得多。
+
+请继续关注我们的 React 18 概要([订阅此处获取更新](https://www.itmagination.com/blog/360deg-it-check-41-react-18-kentucky-bitcoin-astro-chrome-100-vs-code#wf-form-Blog-Main-Signup))，同时[点击这里](https://www.itmagination.com/resources#github-demos)查看我们在 GitHub 上的 React 18 演示。
+
+# Astro 1.0
+
+如果你经常关注我们的 [360 IT Check](https://www.itmagination.com/newsletters/360-it-check) ，那么你必须知道我们是 Astro 和它给网络带来的东西的忠实粉丝。不出所料，我们对即将发布的 1.0 版本感到兴奋，这将是该项目的第一个稳定版本。Astro 火箭将于太平洋时间今天(4 月 4 日，星期一)9:30 发射。
+
+**底线**
+
+Astro 等框架是前端开发领域的下一个大事件。使开发人员能够在页面上创建 JavaScript 的“孤岛”,而网站需要额外的几十千字节来呈现。引用出现在该项目网站上的第一篇文章“建立一个更快的网站有一个简单的秘密——只需要少出货”我们正在为项目背后的团队祈祷。
+
+# 肯塔基州的更多采矿
+
+肯塔基州是一个拥有丰富煤矿开采历史的美国州，[现在正专注于吸引更多的比特币矿工](https://techcrunch.com/2022/03/30/bitcoin-miners-are-dusting-off-kentucky-coal-towns-spurred-by-state-crypto-tax-incentives)，努力使其成为该国的头号加密公司。就风格而言，只有纽约州胜过蓝草州。这种情况可能很快就会改变，两项新法律吸引了密码专业人士。
+
+有两个关键法案:参议院法案 255 和众议院法案 230。因此，搬到肯塔基州的公司正在让一些旧网站起死回生:“(属于矿工的)数据中心正在重新利用一个废弃了几十年的煤矿网站。”
+
+**底线**
+
+随着 hashrates 的增加，我们都必须记住，传统的挖掘算法是非常耗能的。所有将加密从工作证明转移到[利害关系证明](https://www.investopedia.com/terms/p/proof-stake-pos.asp)算法的举措都是自然的胜利。有人可能会认为清洁能源是解决方案，尽管我们没有考虑制造和处理所有 GPU 的环境成本。
+
+另一方面，我们拥有所有被这些公司起死回生的废弃矿山和房地产。许多被一些人遗忘的城市正在获得第二次机会:包括那些可能被遗忘的城市人口。
+
+# 铬 100
+
+它在这里。闪亮的新 [Chrome 100](https://developer.chrome.com/en/blog/new-in-chrome-100/) :第一个三位数的长版本。正如我们[早些时候](https://www.itmagination.com/blog/360deg-it-check-35-state-of-js-rust-express-next-line-hp-firefox-chrome)报道的，Chrome 出现了一些问题，Firefox 有点 Y2K 问题。简而言之，一些网站不喜欢三位数，并且(在一些极端的情况下)拒绝工作。奇怪的是，12 年前我们也有同样的问题。)，当 Chrome 和 Firefox 推出他们的版本 10 时。
+
+除了新问题还有什么新的？
+
+*   将窗口放在多个屏幕上更容易
+*   对 WebNFC 的改进
+*   对用户字符串的更改
+*   新的 DevTool 特性(见下面的视频)
+
+# VS 代码更新
+
+Visual Studio Code 是最顶尖的代码编辑器之一，上周获得了更新。代码为 1.66 的版本带来了大量的变化和新特性。其中一些包括:
+
+*   可访问性改进，例如减少动画的能力
+*   独立于 Git 的本地历史
+*   按语言扩展筛选设置
+*   在注释之间移动更容易
+*   还有更多。
+
+ITMAGINATION 的 React 开发人员 Alexandru Gherasim 指出了两个不明显的变化，他认为这两个变化的重要性不亚于其他变化。首先，他指出了在终端中导航命令的改进能力，其次是匹配代码中括号和改变它们的颜色规则的内置特性。
+
+**底线**
+
+VS 代码很快将不得不面对一个强大的竞争对手——来自 JetBrains 的新编辑。不过，那很好。竞争总是好的，迫使团队创新，并改进他们的产品。前进是这里的方式，**尤其是**如果从一个编辑器切换到另一个很容易。扩展使得移动更加方便，能够让编辑器按照需要工作。留住用户的唯一方法要么是强大的品牌，要么是让你的产品明显更好。
+
+*最初发表于*[T5【https://www.itmagination.com】](https://www.itmagination.com/blog/360deg-it-check-41-react-18-kentucky-bitcoin-astro-chrome-100-vs-code)*。*

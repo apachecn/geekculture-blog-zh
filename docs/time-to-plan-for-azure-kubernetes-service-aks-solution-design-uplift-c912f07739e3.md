@@ -1,0 +1,5 @@
+# 规划 Azure Kubernetes 服务(AKS)解决方案设计升级的时间
+
+> 原文：<https://medium.com/geekculture/time-to-plan-for-azure-kubernetes-service-aks-solution-design-uplift-c912f07739e3?source=collection_archive---------4----------------------->
+
+时间过得很快，快 2021 年年底了。回想过去，大约两年前，我帮助几个客户设计并采用了应用程序[微服务](https://azure.microsoft.com/en-us/solutions/microservice-applications/#overview?WT.mc_id=AI-MVP-5004577) & [容器化](https://azure.microsoft.com/en-us/overview/what-is-a-container/#overview?WT.mc_id=AI-MVP-5004577)和[Azure Kubernetes Services(AKS)](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes?WT.mc_id=AI-MVP-5004577)。回到 2019 年，AKS 相对较新，很难做出完美的解决方案设计来实现最高的弹性、可用性、可扩展性、安全性和性能。正如我们所知，[微软 Azure](https://azure.microsoft.com/en-us/?WT.mc_id=AI-MVP-5004577) 一直在持续改进，并以极快的速度追赶上来，在 [AKS](https://docs.microsoft.com/en-us/azure/aks/intro-kubernetes?WT.mc_id=AI-MVP-5004577) 和相关服务中加入了许多新功能…

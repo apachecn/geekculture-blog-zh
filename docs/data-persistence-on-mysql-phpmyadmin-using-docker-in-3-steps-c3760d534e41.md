@@ -1,0 +1,5 @@
+# 使用 Docker 的 MySQL 和 phpMyAdmin 的数据持久性，分 3 步完成
+
+> 原文：<https://medium.com/geekculture/data-persistence-on-mysql-phpmyadmin-using-docker-in-3-steps-c3760d534e41?source=collection_archive---------5----------------------->
+
+在之前的一篇文章中([这里是](https://migueldoctor.medium.com/run-mysql-phpmyadmin-locally-in-3-steps-using-docker-74eb735fa1fc))，我们讨论了使用基于容器的技术，如 [docker](https://www.docker.com/?utm_medium=PPC&utm_source=Adwords&utm_term=docker&utm_target=aud-646863819067:kwd-43721580&utm_campaign=1894083082&utm_content=Homepage&gclid=Cj0KCQjwt_nmBRD0ARIsAJYs6o2JFBXvsn1CyLoqd-gTwL452k4JqGq0w0qDK47B4jdJ5q1dzNfvkaAaAgTGEALw_wcB) 来建立一个带有基于 web 的管理工具的关系数据库的好处。也就是说，我们演示了如何使用 docker 容器使用[**【MySQL】**](https://www.mysql.com/)和[**PhpMyAdmin**](https://www.phpmyadmin.net/)**建立并运行一个全功能的数据管理平台。然而，所提出的方法有一个由容器技术本身的性质引起的问题，如 docker: ***当容器不再存在时，数据将不再持久。这意味着，你所有的工作都将消失，如果…*****

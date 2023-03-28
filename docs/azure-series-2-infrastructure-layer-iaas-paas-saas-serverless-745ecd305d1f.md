@@ -1,0 +1,5 @@
+# Azure 系列#2:基础架构层— IAAS | PAAS | SAAS |无服务器
+
+> 原文：<https://medium.com/geekculture/azure-series-2-infrastructure-layer-iaas-paas-saas-serverless-745ecd305d1f?source=collection_archive---------57----------------------->
+
+本文是 Azure 多部分系列([母篇](/geekculture/azure-series-multi-part-series-on-azure-cloud-and-related-guidelines-f40128ac3037?source=your_stories_page-------------------------------------))的一部分。文章的上一部分— [Azure 系列#1:安全层— 2。网络保护](/geekculture/azure-series-1-security-layer-2-network-protection-4cf02123a2d6?source=your_stories_page-------------------------------------)和文章的下一部分— [Azure 系列#2: 4 层基础架构，为 1 到数百万用户、数据&功能](/geekculture/azure-series-2-4-layer-infrastructure-to-design-for-1-to-several-millions-of-users-data-303316199cbc?source=your_stories_page-------------------------------------)进行设计。
