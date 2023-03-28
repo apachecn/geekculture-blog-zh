@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>Effective Java: Use Exceptions for Only Exceptional Circumstances</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">有效的Java:只在特殊情况下使用异常</h1>
+<blockquote>原文：<a href="https://medium.com/geekculture/effective-java-use-exceptions-for-only-exceptional-circumstances-6e4762b5ebc2?source=collection_archive---------31-----------------------#2021-07-19">https://medium.com/geekculture/effective-java-use-exceptions-for-only-exceptional-circumstances-6e4762b5ebc2?source=collection_archive---------31-----------------------#2021-07-19</a></blockquote><div><div class="ds hc hd he hf hg"/><div class="hh hi hj hk hl"><div class=""/><figure class="ev ex im in io ip er es paragraph-image"><div role="button" tabindex="0" class="iq ir di is bf it"><div class="er es il"><img src="../Images/4526c743ba4f7407813a635076164092.png" data-original-src="https://miro.medium.com/v2/resize:fit:1400/0*J7v943-XP2mbi1Gh"/></div></div><figcaption class="iw ix et er es iy iz bd b be z dx">Photo by <a class="ae ja" href="https://unsplash.com/@rojekilian?utm_source=medium&amp;utm_medium=referral" rel="noopener ugc nofollow" target="_blank">Sarah Kilian</a> on <a class="ae ja" href="https://unsplash.com?utm_source=medium&amp;utm_medium=referral" rel="noopener ugc nofollow" target="_blank">Unsplash</a></figcaption></figure><p id="09cd" class="pw-post-body-paragraph jb jc ho jd b je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju jv jw jx jy hh bi translated">在您编码生涯中的某个时刻，您可能会非常不幸地遇到类似如下的代码:</p><pre class="jz ka kb kc fd kd ke kf kg aw kh bi"><span id="9842" class="ki kj ho ke b fi kk kl l km kn">try {<br/>  int i = 0;<br/>  while (true) {<br/>    items[i++].process();<br/>  }<br/>} catch (ArrayIndexOutOfBoundsException ignored) {<br/>}</span></pre><p id="80ac" class="pw-post-body-paragraph jb jc ho jd b je jf jg jh ji jj jk jl jm jn jo jp jq jr js jt ju jv jw jx jy hh bi translated">很可能这段代码所做的事情不会立即引起你的注意，尤其是与…</p></div></div>    
+</body>
+</html>

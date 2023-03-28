@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>Github and GitLab solutions</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">Github和GitLab解决方案</h1>
+<blockquote>原文：<a href="https://medium.com/geekculture/github-and-gitlab-solutions-76946d3c967a?source=collection_archive---------14-----------------------#2022-07-30">https://medium.com/geekculture/github-and-gitlab-solutions-76946d3c967a?source=collection_archive---------14-----------------------#2022-07-30</a></blockquote><div><div class="ds hc hd he hf hg"/><div class="hh hi hj hk hl"><div class=""/><div class=""><h2 id="d472" class="pw-subtitle-paragraph il hn ho bd b im in io ip iq ir is it iu iv iw ix iy iz ja jb jc dx translated">##将github中超过100MB的文件添加到。gitignore</h2></div><p id="6d77" class="pw-post-body-paragraph jd je ho jf b jg jh ip ji jj jk is jl jm jn jo jp jq jr js jt ju jv jw jx jy hh bi translated">github的默认设置不允许推送超过100MB的文件，提交和推送文件会比较麻烦。</p><p id="d4f0" class="pw-post-body-paragraph jd je ho jf b jg jh ip ji jj jk is jl jm jn jo jp jq jr js jt ju jv jw jx jy hh bi translated">超过100MB</p><pre class="jz ka kb kc fd kd ke kf kg aw kh bi"><span id="7c04" class="ki kj ho ke b fi kk kl l km kn">find . -size +100M -ls</span></pre><p id="4be0" class="pw-post-body-paragraph jd je ho jf b jg jh ip ji jj jk is jl jm jn jo jp jq jr js jt ju jv jw jx jy hh bi translated">增加</p><pre class="jz ka kb kc fd kd ke kf kg aw kh bi"><span id="65ce" class="ki kj ho ke b fi kk kl l km kn">find . -size +100M | sed -e 's/^\.\///' &gt;&gt; .gitignore</span></pre><p id="c64a" class="pw-post-body-paragraph jd je ho jf b jg jh ip ji jj jk is jl jm jn jo jp jq jr js jt ju jv jw jx jy hh bi translated">移除缓存</p><pre class="jz ka kb kc fd kd ke kf kg aw kh bi"><span id="fe88" class="ki kj ho ke b fi kk kl l km kn">git rm -r --cached .</span></pre><h2 id="2dc5" class="ki kj ho bd ko kp kq kr ks kt ku kv kw jm kx ky kz jq la lb lc ju ld le lf lg bi translated">##未反映在中。gitignore…</h2></div></div>    
+</body>
+</html>

@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>Probit and logistic regression</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">概率单位和逻辑回归</h1>
+<blockquote>原文：<a href="https://medium.com/geekculture/probit-and-logistic-regression-99497f3f94b0?source=collection_archive---------6-----------------------#2021-10-24">https://medium.com/geekculture/probit-and-logistic-regression-99497f3f94b0?source=collection_archive---------6-----------------------#2021-10-24</a></blockquote><div><div class="ds hc hd he hf hg"/><div class="hh hi hj hk hl"><div class=""/><p id="cf71" class="pw-post-body-paragraph il im ho in b io ip iq ir is it iu iv iw ix iy iz ja jb jc jd je jf jg jh ji hh bi jj translated">当我们需要在R中建立一个二进制模型时，我们通常会使用glm函数。在二项式部分，我们可以选择两种模型。</p><pre class="js jt ju jv fd jw jx jy jz aw ka bi"><span id="4841" class="kb kc ho jx b fi kd ke l kf kg">glm(admit ~ gre + gpa + rank, family = binomial(link = "probit"), data = mydata)</span><span id="3615" class="kb kc ho jx b fi kh ke l kf kg">glm(admit ~ gre + gpa + rank, family = binomial(link = "logit"), data = mydata)</span></pre><p id="2293" class="pw-post-body-paragraph il im ho in b io ip iq ir is it iu iv iw ix iy iz ja jb jc jd je jf jg jh ji hh bi translated">与文献含义相同，二项式(link = "probit ")用于概率单位回归，二项式(link = "logit ")用于逻辑回归。他们都致力于二进制分类。你甚至可以看到很多文章描述他们是…</p></div></div>    
+</body>
+</html>

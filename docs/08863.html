@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>Explore Go sync.Pool as Cache</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">探索Go sync。作为缓存的池</h1>
+<blockquote>原文：<a href="https://medium.com/geekculture/go-sync-pool-as-cache-in-kubernetes-4e247c52e732?source=collection_archive---------2-----------------------#2021-11-17">https://medium.com/geekculture/go-sync-pool-as-cache-in-kubernetes-4e247c52e732?source=collection_archive---------2-----------------------#2021-11-17</a></blockquote><div><div class="ds hc hd he hf hg"/><div class="hh hi hj hk hl"><div class=""/><div class=""><h2 id="a739" class="pw-subtitle-paragraph il hn ho bd b im in io ip iq ir is it iu iv iw ix iy iz ja jb jc dx translated">关于同步的详细信息。池和有效使用它的想法</h2></div><figure class="je jf jg jh fd ji er es paragraph-image"><div role="button" tabindex="0" class="jj jk di jl bf jm"><div class="er es jd"><img src="../Images/85d103472ea55fd5df0acd234ab2044e.png" data-original-src="https://miro.medium.com/v2/resize:fit:1400/0*5KVtnB84WfQE9h6D"/></div></div><figcaption class="jp jq et er es jr js bd b be z dx">From unsplash, @<a class="ae jt" href="https://unsplash.com/photos/aaUMGx6YguU" rel="noopener ugc nofollow" target="_blank">Joshua J. Cotten</a></figcaption></figure><p id="7510" class="pw-post-body-paragraph ju jv ho jw b jx jy ip jz ka kb is kc kd ke kf kg kh ki kj kk kl km kn ko kp hh bi translated">我在JSON第三方库orchard忙工作的时候被一个“苹果”砸到了头。</p><p id="9a04" class="pw-post-body-paragraph ju jv ho jw b jx jy ip jz ka kb is kc kd ke kf kg kh ki kj kk kl km kn ko kp hh bi translated"><code class="du kq kr ks kt b">sync.Pool</code>被这么多libs用作缓存来提高性能，比如<code class="du kq kr ks kt b">go-json</code>通过<code class="du kq kr ks kt b">sync.Pool</code>存储一个<code class="du kq kr ks kt b">sliceHeader </code>，以防解码JSON时需要重用。为什么我不申请…</p></div></div>    
+</body>
+</html>

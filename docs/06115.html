@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>Batch processing in scale using Kubernetes jobs</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">使用Kubernetes作业进行批量处理</h1>
+<blockquote>原文：<a href="https://medium.com/geekculture/batch-processing-in-scale-using-kubernetes-jobs-2759fdf9bdb3?source=collection_archive---------4-----------------------#2021-08-06">https://medium.com/geekculture/batch-processing-in-scale-using-kubernetes-jobs-2759fdf9bdb3?source=collection_archive---------4-----------------------#2021-08-06</a></blockquote><div><div class="dt hd he hf hg hh"/><div class="hi hj hk hl hm"><div class=""/><p id="9cf5" class="pw-post-body-paragraph im in hp io b ip iq ir is it iu iv iw ix iy iz ja jb jc jd je jf jg jh ji jj hi bi translated">本文讨论了一种方法，可以帮助客户使用Kubernetes作业和AWS step函数在AWS EKS扩展大型文件处理工作负载。</p><h1 id="e6c8" class="jk jl hp bd jm jn jo jp jq jr js jt ju jv jw jx jy jz ka kb kc kd ke kf kg kh bi translated">介绍</h1><p id="de19" class="pw-post-body-paragraph im in hp io b ip ki ir is it kj iv iw ix kk iz ja jb kl jd je jf km jh ji jj hi bi translated">这种方法使用AWS步骤功能来编排端到端流程，包括:</p><ul class=""><li id="a316" class="kn ko hp io b ip iq it iu ix kp jb kq jf kr jj ks kt ku kv bi translated">从S3自动气象站读取输入文件</li><li id="c5e9" class="kn ko hp io b ip kw it kx ix ky jb kz jf la jj ks kt ku kv bi translated">将大的输入文件分割成较小的文件，处理它，将数据保存到数据库中</li><li id="a7aa" class="kn ko hp io b ip kw it kx ix ky jb kz jf la jj ks kt ku kv bi translated">将输出文件写入AWS S3</li></ul></div></div>    
+</body>
+</html>

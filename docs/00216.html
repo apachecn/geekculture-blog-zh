@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>Secure AWS EC2 Instances With MFA and SSH Key Rotation</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">使用MFA和SSH密钥轮换保护AWS EC2实例</h1>
+<blockquote>原文：<a href="https://medium.com/geekculture/ec2-mfa-ssh-key-rotation-fddc807f9318?source=collection_archive---------0-----------------------#2020-11-11">https://medium.com/geekculture/ec2-mfa-ssh-key-rotation-fddc807f9318?source=collection_archive---------0-----------------------#2020-11-11</a></blockquote><div><div class="ds hc hd he hf hg"/><div class="hh hi hj hk hl"><div class=""/><div class=""><h2 id="d977" class="pw-subtitle-paragraph il hn ho bd b im in io ip iq ir is it iu iv iw ix iy iz ja jb jc dx translated">整体架构:</h2></div><figure class="je jf jg jh fd ji er es paragraph-image"><div role="button" tabindex="0" class="jj jk di jl bf jm"><div class="er es jd"><img src="../Images/f057a77797a3ec15314dfd3808e850ab.png" data-original-src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*oRvxsZNGYzpHHgEYjo7jJA.png"/></div></div><figcaption class="jp jq et er es jr js bd b be z dx">Overall Architecture</figcaption></figure><p id="e6fc" class="pw-post-body-paragraph jt ju ho jv b jw jx ip jy jz ka is kb kc kd ke kf kg kh ki kj kk kl km kn ko hh bi translated"><strong class="jv hp">想法</strong>:</p><p id="4530" class="pw-post-body-paragraph jt ju ho jv b jw jx ip jy jz ka is kb kc kd ke kf kg kh ki kj kk kl km kn ko hh bi translated">这个架构背后的主要思想是通过SSH安全地访问EC2实例。这包括两个部分:</p><ul class=""><li id="a008" class="kp kq ho jv b jw jx jz ka kc kr kg ks kk kt ko ku kv kw kx bi translated">使用MFA保护对Bastion主机的SSH访问。这个过程在<a class="ae ky" href="https://aws.amazon.com/blogs/startups/securing-ssh-to-amazon-ec2-linux-hosts/" rel="noopener ugc nofollow" target="_blank"> AWS博客</a>中有解释。</li><li id="84f4" class="kp kq ho jv b jw kz jz la kc lb kg lc kk ld ko ku kv kw kx bi translated">访问EC2的公共和私有SSH密钥…</li></ul></div></div>    
+</body>
+</html>

@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>Sessions and a Secret Key in Django</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">姜戈的会话和密钥</h1>
+<blockquote>原文：<a href="https://medium.com/geekculture/sessions-and-a-secret-key-in-django-9d7fa021f96c?source=collection_archive---------4-----------------------#2021-07-15">https://medium.com/geekculture/sessions-and-a-secret-key-in-django-9d7fa021f96c?source=collection_archive---------4-----------------------#2021-07-15</a></blockquote><div><div class="ds hc hd he hf hg"/><div class="hh hi hj hk hl"><div class=""/><p id="ec76" class="pw-post-body-paragraph il im ho in b io ip iq ir is it iu iv iw ix iy iz ja jb jc jd je jf jg jh ji hh bi translated">在姜戈，有些事情就是有效的，你从来不用担心具体是如何有效的。其中之一就是会话。</p><p id="ab9e" class="pw-post-body-paragraph il im ho in b io ip iq ir is it iu iv iw ix iy iz ja jb jc jd je jf jg jh ji hh bi translated">您有多个用户访问您的网站。有些是登录的，有些只是客人。你只需要访问<code class="du jj jk jl jm b">request.user</code>来查看当前用户是否登录。但是在引擎盖下发生了什么？</p><h2 id="6484" class="jn jo ho bd jp jq jr js jt ju jv jw jx iw jy jz ka ja kb kc kd je ke kf kg kh bi translated">会议</h2><p id="b78b" class="pw-post-body-paragraph il im ho in b io ki iq ir is kj iu iv iw kk iy iz ja kl jc jd je km jg jh ji hh bi translated">对于每个用户，都会创建一个会话。</p><p id="2fc6" class="pw-post-body-paragraph il im ho in b io ip iq ir is it iu iv iw ix iy iz ja jb jc jd je jf jg jh ji hh bi translated">会话只是数据库中名为<code class="du jj jk jl jm b">django_sessions</code>的表中的另一行，如下图所示:</p></div></div>    
+</body>
+</html>

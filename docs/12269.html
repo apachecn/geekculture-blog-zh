@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>Timeout Context In Go</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">Go中的超时上下文</h1>
+<blockquote>原文：<a href="https://medium.com/geekculture/timeout-context-in-go-e88af0abd08d?source=collection_archive---------0-----------------------#2022-05-05">https://medium.com/geekculture/timeout-context-in-go-e88af0abd08d?source=collection_archive---------0-----------------------#2022-05-05</a></blockquote><div><div class="ds hc hd he hf hg"/><div class="hh hi hj hk hl"><div class=""/><p id="7eda" class="pw-post-body-paragraph il im ho in b io ip iq ir is it iu iv iw ix iy iz ja jb jc jd je jf jg jh ji hh bi translated">在用Golang进行并发编程时，<a class="ae jj" href="https://pkg.go.dev/context" rel="noopener ugc nofollow" target="_blank">上下文包</a>是一个强大的工具，用来管理诸如<strong class="in hp">超时</strong>、<strong class="in hp">取消</strong>、<strong class="in hp">截止日期</strong>等操作。</p><p id="fb0f" class="pw-post-body-paragraph il im ho in b io ip iq ir is it iu iv iw ix iy iz ja jb jc jd je jf jg jh ji hh bi translated">在这些操作中，带有超时的上下文主要在我们想要发出外部请求时使用，比如网络请求或数据库请求。在这篇文章中，我将向你展示如何使用它来超时一个goroutine。</p><p id="1eac" class="pw-post-body-paragraph il im ho in b io ip iq ir is it iu iv iw ix iy iz ja jb jc jd je jf jg jh ji hh bi translated">我们先来看一个简单的例子。</p><figure class="jl jm jn jo fd jp er es paragraph-image"><div class="er es jk"><img src="../Images/ab0e33a4d01017214ab178dc9a3b1058.png" data-original-src="https://miro.medium.com/v2/resize:fit:1196/format:webp/1*lnVjCu4JR7uQAkBe0IgQNg.jpeg"/></div><figcaption class="js jt et er es ju jv bd b be z dx">Timeout Context Example</figcaption></figure></div></div>    
+</body>
+</html>

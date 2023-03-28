@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>Avoid Relative Path Hell in TypeScript Backend</title>
+<link href="../Styles/Style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1 class="translated">避免TypeScript后端中的相对路径地狱</h1>
+<blockquote>原文：<a href="https://medium.com/geekculture/avoid-relative-path-hell-in-typescript-backend-41417b0086b7?source=collection_archive---------5-----------------------#2021-09-25">https://medium.com/geekculture/avoid-relative-path-hell-in-typescript-backend-41417b0086b7?source=collection_archive---------5-----------------------#2021-09-25</a></blockquote><div><div class="ds hc hd he hf hg"/><div class="hh hi hj hk hl"><div class=""/><p id="61af" class="pw-post-body-paragraph il im ho in b io ip iq ir is it iu iv iw ix iy iz ja jb jc jd je jf jg jh ji hh bi translated">当我开始用TypeScript创建一个新的应用程序时，我倾向于在开始时使用相对导入。但是随着应用程序的增长，目录结构变得更深更复杂。有一天，我注意到地狱的相对路径如下所示。</p><pre class="jj jk jl jm fd jn jo jp jq aw jr bi"><span id="9fac" class="js jt ho jo b fi ju jv l jw jx">import * as dbService from "../../../../services/db";<br/>import * as routes from "../../../routes";<br/>import * as graphql from "../../../../graphql";<br/>....</span></pre><p id="08b1" class="pw-post-body-paragraph il im ho in b io ip iq ir is it iu iv iw ix iy iz ja jb jc jd je jf jg jh ji hh bi translated">幸运的是，在像React和Vue这样的TypeScript前端中使用导入别名是众所周知的。<code class="du jy jz ka jo b">tsconfig.json</code>捆绑器配置(如webpack)是一个目标…</p></div></div>    
+</body>
+</html>
